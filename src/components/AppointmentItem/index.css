@@ -1,0 +1,47 @@
+.appointment-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 5rem;
+  width: 100%;
+  background-color: transparent;
+  border: 0.1rem solid #b5b7c4;
+  border-radius: 10px;
+  padding: 0.6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-card {
+    width: 300px;
+  }
+}
+
+.heading-favorite-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title-para {
+  font-size: 1.3rem;
+}
+
+.star-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.star-logo {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.date-para {
+  font-size: 1rem;
+  color: #b5b7c4;
+  font-family: Roboto;
+}
